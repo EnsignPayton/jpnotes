@@ -1,0 +1,58 @@
+.card {
+    font-family: MS UI Gothic;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 600px;
+    max-height: 300px;
+}
+
+ul {
+    list-style-type:none;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+
+.f-hint {
+    font-size: 20px;
+}
+
+.f-furigana {
+    display: none;
+}
+
+.f-wrapper:hover>.f-furigana {
+    display: block;
+}
+
+.f-wrapper:hover>.f-kanji {
+    display: none;
+}
+
+.b-glossary {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+svg > text {
+    fill: #fff !important;
+}
+
+svg > path {
+    stroke: #fff !important;
+}
+
+svg > circle[r="5"] {
+    fill: #fff !important;
+}
+
+svg > circle[r="3.25"] {
+    fill: #2d2d2d !important;
+}
